@@ -1,0 +1,18 @@
+Graph
+    Node (Private)
+        label: String
+
+    addNode(label)
+    removeNode(label)
+    addEdge(from, to)
+    removeEdge(from, to)
+    print()
+        A is connected with [B, C]
+        B is connected with [A]
+
+// stack
+[x, y]
+when java runtime calls a method it pushes the arguments to call stack in order to remember them during
+execution of method afther execution java runtime will remove it from the stack
+methodA(x)
+    methodB(y)
